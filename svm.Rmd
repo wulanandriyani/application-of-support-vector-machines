@@ -1,0 +1,83 @@
+---
+title: "Recommender System"
+author: "Inayatus S, Tanesya Tresna, Wulan Andriyani, & Yaumil Sitta"
+date: "`r format(Sys.Date(), '%B %e, %Y')`"
+output: 
+  html_document:
+    theme: flatly
+    higlight: zenburn
+    toc: true
+    toc_float:
+      collapsed: false
+    number_sections: true
+    df_print: paged
+---
+
+<style>
+body { 
+text-align: justify}
+</style>
+
+# Pengantar {.tabset}
+
+## Latar Belakang
+
+Berkembang pesatnya data science akhir-akhir ini sangat berpengaruh terhadap peningkatan pemanfaatan algoritma machine learning pada berbagai bidang industri. Salah satu permasalahan yang hampir ditemui pada beragai bidang industri adalah kasus klasifikasi, seperti klasifikasi nasabah yang mengalami permasalahan dalam pembayaran hutang, klasifikasi pelanggan yang berhenti berlangganan, klasifikasi pasien yang mengidap tumor ganas, klasifikasi proses kontrol, dan masih banyak lagi. Hal tersebut mendorong pemanfaatan algoritma machine learning khususnya metode klasifikasi.
+
+Ada berbagai jenis metode klasifikasi yang tersedia mulai dari yang mudah untuk diinterpretasikan sampai yang performa modelnya cukup tinggi (high accuracy), seperti Logistic Regression, Discriminant Analysis, K-Nearest Neighbor, Support Vector Machines, Tree-Based Models (Decision Tree, Random Forest, Gradient Boosting, etc.), Naive Bayes Classifier, Neural Network, dan masih banyak lagi. 
+
+Artikel ini akan membahas tentang bagaiamana algoritma Support Vector Machines bekerja dan implementasinya menggunakan bahasa pemrograman R secara bertahap, mulai dari mempersiapkan data, membangun algoritma Support Vector Machines, dan cara mengevaluasi algoritma tersebut.
+
+## Tujuan
+
+Artikel ini dimaksudkan untuk:
+
+- Membahas bagaimana algoritma Support Vector Machines bekerja
+- Membahas kekurangan dan kelebihan algoritma Support Vector Machines
+- Membahas implementasi algoritma Support Vector Machines menggunakan bahasa pemrograman R
+
+Untuk memahami topik yang akan dibahas, setidaknya harus memahami beberapa topik berikut:
+
+- 
+- 
+
+## Libraries and Setup
+
+```{r setup, include=FALSE}
+# clear-up the environment
+rm(list = ls())
+
+# chunk options
+knitr::opts_chunk$set(
+  message = FALSE,
+  warning = FALSE,
+  fig.align = "center",
+  comment = "#>"
+)
+
+# scientific notation
+options(scipen = 9999)
+```
+
+```{r}
+# Import libraries
+library(e1071)
+library(caret)
+```
+
+# Support Vector Machines Algorithm
+
+## Linear Data
+
+## Non-Linear Data
+
+# Aplikasi Linear SVM
+
+# Aplikasi Non-Linear SVM
+
+# Kesimpulan
+
+# Referensi
+
+1. 
+2. 
